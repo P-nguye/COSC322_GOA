@@ -48,7 +48,7 @@ public class Board {
 	public Board(Dimensions dimensions) {
 		this.dimensions = dimensions;
 		this.board = new byte[dimensions.arraySize];
-		this.colorToMove = Color.WHITE;
+		this.colorToMove = Color.BLACK;
 		this.nextMoveType = MoveType.QUEEN;
 		this.moveCount = 0;
 		this.whiteQueens = new IntList(MAX_QUEENS_PER_COLOR);
